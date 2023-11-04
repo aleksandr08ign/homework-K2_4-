@@ -3,9 +3,9 @@ import exception.WrongPasswordException;
 
 public class Validator {
 
-    private static final String correct_code = "q,w,e,r,t,y,u,i,o,p,a,s,d,f,g,h," +
-            "j,k,l,z,x,c,v,b,n,m,Q,W,E,R,T,Y,U,I,O,P,A,S,D,F,G,H,J,K,L,Z,X,C,V,B,N,M," +
-            "_,0,1,2,3,4,5,6,7,8,9";
+    private static final String correct_code = "qwertyuiopasdfgh" +
+            "jklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM" +
+            "_0123456789";
     private static final int max_lenght = 20;
 
     public static void validate(
